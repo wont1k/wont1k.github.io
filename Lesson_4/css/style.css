@@ -1,0 +1,19 @@
+h2,h1{
+	text-align: center;
+
+}
+div {
+	border: 2px solid black;
+}
+.b{
+	font-weight:bold;
+}
+.strong{
+	font-weight: bold;
+}
+.em{
+	font-style: italic; 
+}
+.u{
+	text-decoration: underline;
+}
