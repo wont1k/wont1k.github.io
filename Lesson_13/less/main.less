@@ -1,0 +1,128 @@
+@m: 0;
+.font(@pad: 4rem 0 8rem) {
+	padding: @pad;	
+}
+.fr-input(){
+	color: #515151;
+  font-size: 1.5rem;
+}
+.icon() {
+	content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  margin-bottom: 15px;
+  background-color: #5ba2a9;
+}
+.im(@ur: person){
+	background: url(../img/shared/feedback/@ur-icon.svg) right 1.5rem center no-repeat;
+  background-size: 2rem;
+}
+@fz: 10px;
+@ff:'museo_reg', sans-serif;
+html {
+	font-size: @fz;
+} 
+body {
+	font-family: @ff;
+}
+section  {
+	.font();
+}
+a{
+	&:hover,&:focus,&:active{
+		text-decoration: none;
+  }
+}
+button, input, a, textarea{
+	&:focus{
+		outline: none;
+	}
+}
+
+h{
+	&1 &2 &3 &4 &5 &6 p {
+		marring: @m;
+	}
+}
+.feedback{
+	&-forms-all {
+		.font(6rem 0 9rem 0);
+	}	
+	&-form {
+		&-statement{
+			.font(6rem 0 0);
+		}
+		&-title{
+			margin-bottom: 6rem;
+  		text-align: center;
+  		& h3{
+  			margin-bottom: 1.2rem;
+ 				ont-family: 'museo_bold', sans-serif;
+  			font-size: 2.5rem;
+  			color: #1b1b1b;
+  		}
+  		& p {
+  			font-size: 1.8rem;
+  		}
+		}
+		&-input {
+			position: relative;
+  		width: 100%;
+		  padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+		  border: 2px solid #d0d0d0;
+		  opacity: .5;
+		  color: #454545;
+		  -webkit-transition: 0.3s;
+		  -moz-transition: 0.3s;
+		  -ms-transitiosn: 0.3s;
+		  transition: 0.3s;
+		  &::-webkit-input-placeholder&::-moz-placeholder&:-moz-placeholder&:-ms-input-placeholder{
+				.fr-input();
+		  }
+		  :hover, :focus{
+				opacity: 1;
+		  }
+		}
+
+		& .input-user{
+			&-user{
+				.im(person);
+			}
+			&-phone{
+				.im(telephone);
+			}
+		}
+		&-btn {
+			min-width: 100%;
+		  padding: 1.2rem 0;
+		  background-color: #5ba2a9;
+		  text-transform: uppercase;
+		  border: none;
+		  color: #ffffff;
+		  font-size: 1.8rem;
+		  -webkit-transition: 0.4s;
+		  transition: 0.4s;
+		  &:hover {
+		  	background-color: #488389;
+  			border-radius: 10px;
+		  }
+		}
+		& .title-feedback, & .description-feedback {
+			display: block;
+		}
+	}
+}
+.section-title{
+	margin-bottom: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'museo_bold', sans-serif;
+  font-size: 3rem;
+  color: #1b1b1b;
+  & .uppercase-icon-wrapper{
+  	&::before,&::after,& .upper-icon{
+  		.icon();
+  	}
+  }
+}

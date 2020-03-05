@@ -1,0 +1,75 @@
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+font-family: "Regular"; 
+// адрес шрифта и тип 
+src: url("../fonts/style_Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+body {
+  background-color: green;
+  font-size:  10px;
+}
+.bord {
+  display: inline-block;
+  margin-left: 125px;
+  margin-top: 100px;
+  background-color: white;
+  width: 257px;
+  height: 297px;
+  border: 1px solid #cfdede;
+}
+.create {
+  margin-top: -24px;
+  margin-left: 22px;
+  text-align: center;
+  color: #ebf4f4;
+  background-color: #01b3b3;
+  width: 120px;
+  height: 21px;
+}
+.create h3 {
+  font-size: 9px;
+  padding: 5px 5px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+input {
+  padding-left: 9px;
+  font-family: "regular", Sans-serif;
+
+}
+input, button{
+  width: 210px;
+  height: 26px;
+  margin-left: 21px;
+}
+#em {
+  margin-top: 24px;
+}
+form p {
+  margin-left: 22px;
+  margin-top: 11px;
+  font-weight: bold;
+}
+#input_1 {
+  margin-top: -3px;
+}
+#input_2, #input_3 {
+  margin-top: -1px;
+}
+.btn {
+  background-color: #01b3b3;
+  font-weight: bold;
+  display: block;
+  height: 37px;
+  width: 209px;
+  margin-top: 27px;
+  color: #ebf4f4;
+  font-size: 13px;
+  padding: 4px 1px 0 1px;
+  border: 1px solid #06bfbf;
+}
+span {
+  color: #6bc9c9;
+}
