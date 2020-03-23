@@ -18,3 +18,6 @@
 [Урок 10](https://wont1k.github.io/Lesson_10/ "10 Урок") - Знакомство с LESS
 
 [Урок 13](https://wont1k.github.io/Lesson_13/ "13 Урок") - Pixel Perfect (надо исправить ещё)
+
+[Практика 1](https://wont1k.github.io/practic_1/ "1 Практика") - Вёрста шапки сайта
+
