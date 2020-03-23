@@ -1,0 +1,48 @@
+/*colors*/
+/* Basic setting */
+/* line 10, style.less */
+html {
+  font-size: 10px;
+}
+/* line 13, style.less */
+.button {
+  background-color: #fcb303;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+/* Typograhy */
+/* line 22, style.less */
+section {
+  padding: 10rem 0;
+}
+/* main */
+/* line 26, style.less */
+main {
+  padding: 3rem 0;
+}
+/* line 29, style.less */
+.header {
+  height: 7rem;
+}
+/* line 32, style.less */
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+/* line 36, style.less */
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 41, style.less */
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 900;
+  font-size: 17px;
+  height: 7rem;
+  line-height: 7rem;
+}
