@@ -22,3 +22,5 @@
 [Практика 1](https://wont1k.github.io/practic_1/ "1 Практика") - Вёрста шапки сайта
 
 [Урок 14](https://wont1k.github.io/Lesson_14/ "14 Урок") - Подключение шрифтов
+
+[Практика 2](https://wont1k.github.io/practic_2/ "2 Практика") - Вёрста шапки сайта
