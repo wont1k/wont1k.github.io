@@ -1,0 +1,208 @@
+/*	Font setting */
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../font/ProximaNova-Bold.eot');
+  src: url('../font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../font/ProximaNova-Bold.woff2') format('woff2'), url('../font/ProximaNova-Bold.woff') format('woff'), url('../font/ProximaNova-Bold.ttf') format('truetype'), url('../font/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_Regular';
+  src: url('../font/ProximaNova-Regular.eot');
+  src: url('../font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../font/ProximaNova-Regular.woff2') format('woff2'), url('../font/ProximaNova-Regular.woff') format('woff'), url('../font/ProximaNova-Regular.ttf') format('truetype'), url('../font/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*colors*/
+/* Basic setting */
+/* line 42, style.less */
+html {
+  font-size: 10px;
+}
+/* line 46, style.less */
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+/* line 50, style.less */
+a:hover {
+  text-decoration: none;
+}
+/* line 53, style.less */
+.button {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* line 60, style.less */
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+/* Typograhy */
+/* line 67, style.less */
+body {
+  font-family: 'ProximaNova_Regular', sans-serif;
+}
+/* line 70, style.less */
+section {
+  padding: 10rem 0;
+}
+/* main */
+/* line 74, style.less */
+.main {
+  background: #ffffff url(../img/main_bg.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 3rem 0 5rem;
+}
+/* line 78, style.less */
+.main-content {
+  margin-top: 10rem;
+}
+/* line 80, style.less */
+.main-content h1 {
+  margin-bottom: 4rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+/* line 88, style.less */
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-family: 'ProximaNova_Regular', sans-serif;
+  font-size: 2.4rem;
+}
+/* line 93, style.less */
+.main span {
+  margin-bottom: 3rem;
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+  background: #46b814;
+}
+/* line 101, style.less */
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+/* line 106, style.less */
+.main-trigger {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold', sans-serif;
+  display: block;
+}
+/* line 112, style.less */
+.main-form {
+  padding: 4rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* line 116, style.less */
+.main-form-header {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+/* line 119, style.less */
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+/* line 123, style.less */
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1.7rem;
+}
+/* line 130, style.less */
+.main-form label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+/* line 138, style.less */
+.main-form-btn {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+/* line 144, style.less */
+.main-form small {
+  display: block;
+  margin-top: 1rem;
+}
+/* line 150, style.less */
+.header {
+  height: 7rem;
+}
+/* line 153, style.less */
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+/* line 157, style.less */
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+/* line 164, style.less */
+.phone-block {
+  text-align: right;
+}
+/* line 167, style.less */
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+@media (max-width: 991px) {
+  /* line 178, style.less */
+  .phone-link {
+    text-align: center;
+  }
+  /* line 181, style.less */
+  .main {
+    background-position: top right;
+  }
+  /* line 183, style.less */
+  .main-content {
+    margin-top: 3rem;
+  }
+  /* line 186, style.less */
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 193, style.less */
+  .main {
+    background-position: top left;
+  }
+  /* line 196, style.less */
+  .header {
+    text-align: center;
+  }
+  /* line 199, style.less */
+  .wrap-block {
+    text-align: center;
+  }
+}
