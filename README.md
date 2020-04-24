@@ -25,7 +25,9 @@
 
 [Практика 2](https://wont1k.github.io/practic_2/ "2 Практика") - Вёрста шапки сайта
 
-[Урок 14](https://wont1k.github.io/Lesson_15/ "15 Урок") - Псевдоклассы и превдоэлементы
+[Урок 15](https://wont1k.github.io/Lesson_15/ "15 Урок") - Псевдоклассы и превдоэлементы
 
 [Практика 3](https://wont1k.github.io/practic_3/ "3 Практика") - Адаптивная вёрстка
+
+[Урок 16](https://wont1k.github.io/Lesson_16/ "16 Урок") - Слайдеры
 
