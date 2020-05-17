@@ -31,5 +31,5 @@
 
 [Урок 16](https://wont1k.github.io/Lesson_16/ "16 Урок") - Слайдеры
 
-[Проверка](https://wont1k.github.io/index.php "проверка") - Проверка
+[Проверка](https://wont1k.github.io/ "проверка") - Проверка
 
